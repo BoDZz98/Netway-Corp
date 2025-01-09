@@ -22,7 +22,7 @@ const Filter = ({ handleChange }: FilterProps) => {
           id="priority"
           onChange={handleChange}
           label="Priority"
-          value="all"
+        //   value=""
         >
           <MenuItem value="all">All</MenuItem>
           <MenuItem value="low">Low</MenuItem>
